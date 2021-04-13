@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        .div1{
+background-color: azure;
+        }
+input ,input[type="password"] {
+ width: 100%;
+padding: 10px 0;
+}
+ select{
+ width: 100%;
+padding: 10px ;
+border: solid 1px black;
+border-radius: 5px;
+}
+button{
+    width: 80px;
+    background-color: blanchedalmond;
+}
+button:hover ,select:hover,input[type="text"]:hover ,input[type="password"]:hover{
+    background-color:cornsilk;
+    border-radius: none;
+    padding: 11px;
+}button:focus ,select:focus,input[type="text"]:focus ,input[type="password"]:focus{
+    background-color:cornsilk;
+    border-radius: none;
+    padding: 11px;
+}
+.src{
+background-image: url(src1.png);
+background-repeat: no-repeat;
+padding: 12px 400px 12px 40px;
+background-position: 10px ;
+width: 750px;
+}
+.search{
+width: 100px;
+
+}
+.search:hover{
+width: 800px
+
+}
+.div2{
+
+}
+a{
+    text-decoration: none;
+}
+.div-h{
+   display: none;
+    position: absolute;
+    border: 2px solid red;
+    left: 100px;
+}
+.div2:hover .div-h{
+   display: block;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <label for="fname" id="fname"> First Name </label><input placeholder="Your first name" type="text" name="firstname" id="fname">
+       <br> <label for="lname" id="lname">Last Name </label><input placeholder="Your last name" type="text" name="lastname" id="lname">
+   <br>
+       <label for="password" id="password">Last Name </label><input placeholder="type your password" type="password" name="password" id="password">
+   <br>
+<label>  Country </label>
+    <select name="bd" id="bd">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Usa">USA</option>
+        <option value="UK" selected>UK </option>
+         </select><br>
+         <button>Submit</button>
+<br>
+<input class="src" type=" text" placeholder=" search any hare...">
+ <input class="search" type=" text" placeholder=" search any hare...">
+        </div>
+
+    </div class="div2"> <a href="ymcontents.com">YMC</a>
+    </div>
+    <div class="div-h"> hjhj lhlkj jdisjdkjkxlksxjdnjkljn nlaksnaznd mzznm n ljnjdn dxcmxz </div>
+
+</body>
+</html>
